@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Chicken & Eggs App</title>
+<script>
+window.onload = function () {
+  var ua = navigator.userAgent || navigator.vendor || window.opera;
+
+  if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+    window.location.href = "https://apps.apple.com/kw/app/chicken-eggs-%D8%AF%D8%AC%D8%A7%D8%AC-%D9%88-%D8%A8%D9%8A%D8%B6/id6741918934";
+  } else if (/android/i.test(ua)) {
+    window.location.href = "https://play.google.com/store/apps/details?id=com.mnasati.chickenandeggs";
+  }
+};
+</script>
+</head>
+<body>
+<p>جاري تحويلك لتحميل التطبيق…</p>
+</body>
+</html>
